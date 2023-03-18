@@ -317,3 +317,168 @@ ul a:hover {
 .screen-reader-feature .col-md-6:nth-child(2) button{
   margin: 10px 0 40px 0;
 }
+
+/* dashboard */
+
+.dashboard-feature{
+  color: white;
+  margin: 100px;
+  background: rgb(25,67,246);
+background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100%);
+}
+
+.dashboard-feature img{
+  height: 200px;
+  border-radius: 10px;
+}
+
+.dashboard-feature .col-md-6:nth-child(1){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-feature .col-md-6:nth-child(2){
+  padding: 40px 0;
+}
+
+.dashboard-feature .col-md-6:nth-child(2) p{
+  width: 70%;
+}
+
+.dashboard-feature .col-md-6:nth-child(2) button{
+  width: 60%;
+  margin: 35px 0;
+}
+
+.dashboard-feature .col-md-6:nth-child(2) ul li{
+  list-style-type:disc;
+}
+
+/* become a pro trader section  */
+
+#screen-reader-title{
+  background-color: white;
+  color: rgb(3, 3, 45);
+  padding: 50px 25%;
+}
+
+.screen-reader-feature{
+  background-color: rgba(246, 247, 246, 0.73);
+  margin-right: 0;
+}
+
+
+
+.rectangle {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(71, 218, 71);
+  position: relative;
+  left:-20rem;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  position:absolute;
+  right:-240px;
+  border-radius: 50%;
+  background-color: rgb(71, 218, 71);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-holder {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  left: 400px;
+  top: 150px;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+}
+
+.card-holder img {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-10deg);
+  z-index: 1;
+  height: 200px;
+
+}
+
+.card-holder img:nth-child(2) {
+  transform: translateX(-50%) rotate(10deg) translateY(-20px);
+  z-index: 2;
+  height: 200px;
+}
+
+.card-holder img:nth-child(3) {
+  transform: translateX(-50%) rotate(30deg) translateY(-40px);
+  z-index: 3;
+  height: 200px;
+}
+
+.pro-trader .col-md-6:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pro-trader .col-md-6:nth-child(2) p{
+  color: rgb(57, 7, 122);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.pro-trader .col-md-6:nth-child(2) ul li{
+  list-style: disc;
+  color: purple;
+  font-size: 0.8rem;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+/* benefits of finance school section  */
+
+.benefits-section{
+  padding: 10px 250px;
+  
+}
+
+.benefits-section h1{
+  margin-top: 35px;
+  margin-bottom: 100px;
+ 
+  font-weight: bold;
+}
+
+.benefit-box{
+ width: 250px;
+ margin:35px 0;
+}
+
+.benefit-box-title{
+  font-weight: bold;
+}
+
+.benefit-box-description{
+  color: grey;
+}
+
+.fa-bullseye{
+  color: white;
+  background-color: rgb(22, 210, 51);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* why buy section  */
+
+.why-buy-section{
+  text-align: center;
+}
+
