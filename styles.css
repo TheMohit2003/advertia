@@ -489,6 +489,7 @@ background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100
 
 .why-buy-section .whys{
   margin-top: 60px;
+  margin-bottom: 25px;
   padding: 0 200px;
 }
 
@@ -544,4 +545,23 @@ background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100
 .six{
   background-color: rgb(113, 210, 237);
   color: #0062cc;
+}
+
+/* help section */
+
+.help{
+  background-color: #0069d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.help h1{
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.help img{
+  text-align: center;
+  margin: 0 auto;
 }
