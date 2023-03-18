@@ -237,12 +237,9 @@ ul a:hover {
 
 .screen-reader-feature{
   background-color: rgba(246, 247, 246, 0.73);
+  margin-right: 0;
 }
 
-.main{
-  height:fit-content;
-  background-color:red;
-}
 
 
 .rectangle {
@@ -294,4 +291,13 @@ ul a:hover {
   transform: translateX(-50%) rotate(30deg) translateY(-40px);
   z-index: 3;
   height: 200px;
+}
+
+.feature-box{
+  height:100px;
+  background-color:yellow;
+  width:200px;
+  display:flex;
+  flex-direction:column;
+  
 }
