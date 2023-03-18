@@ -482,3 +482,66 @@ background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100
   text-align: center;
 }
 
+.why-buy-section h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.why-buy-section .whys{
+  margin-top: 60px;
+  padding: 0 200px;
+}
+
+.reason{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.reason p{
+  font-size: medium;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.number-box{
+  height: 50px;
+ min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+.one{
+  background-color: plum;
+  color: purple;
+}
+
+.two{
+  background-color: rgb(232, 190, 113);
+  color: rgb(129, 87, 9);
+}
+
+.three{
+  background-color: lightcoral;
+  color: red;
+}
+
+.four{
+  background-color: rgb(143, 157, 237);
+  color: blue;
+}
+
+.five{
+  background-color: rgb(244, 152, 182);
+  color: red;
+}
+
+.six{
+  background-color: rgb(113, 210, 237);
+  color: #0062cc;
+}
