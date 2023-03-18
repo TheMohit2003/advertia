@@ -1,0 +1,297 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+
+.green-highlight {
+  color: rgb(26, 171, 26);
+  text-transform: capitalize;
+}
+
+.bottom-line {
+  border-bottom: 5px solid green; /* Change the thickness and style to your preference */
+}
+
+.upper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 8px 0;
+  font-weight: bolder;
+  background-color: black;
+}
+
+ul a {
+  color: rgb(255, 255, 255);
+}
+
+ul a:hover {
+  color: yellow;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 8px 0;
+  font-weight: bolder;
+  background-color: rgb(139, 138, 138);
+  color: black;
+  display: flex;
+  position: absolute;
+}
+
+.lower a {
+  color: rgb(0, 0, 0);
+}
+
+#dropdown {
+  display: none;
+}
+
+/* lower navbar */
+
+.lower-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.lower-navbar input {
+  width: 400px;
+  padding: 5px 10px;
+  border: solid 1px rgb(130, 125, 125);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #bfbfbf, -5px -5px 10px #ffffff;
+}
+
+.sign-up-button {
+  background-color: rgb(68, 217, 78);
+  outline: none;
+  border: none;
+}
+
+/* hero container  */
+.hero-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px 0;
+}
+
+.left-hero-container {
+  padding: 0 70px;
+}
+
+.hero-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 80%;
+}
+.hero-tagline {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-subtext {
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+.hero-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.hero-feature {
+  text-align: center;
+}
+
+.hero-feature h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.hero-feature p {
+  font-size: 16px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-image-container {
+  height: 500px;
+  overflow: hidden;
+}
+
+.features {
+  font-size: xx-small;
+}
+
+.fa-microphone {
+  color: orange;
+  margin: 0 5px;
+}
+
+.fa-briefcase {
+  color: palevioletred;
+  margin: 0 5px;
+}
+
+/* description container one */
+.description-container-one .row {
+  height: 700px;
+}
+
+.description-container-one img {
+  height: 60%;
+}
+
+.right_discription-one {
+  padding: 25px 0;
+}
+
+.description_tagline {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.right_discription-one p {
+  line-height: 2.3rem;
+  font-size: 0.9rem;
+  color: #3e3c3c;
+}
+
+/* one line decription container*/
+
+.one-line-title {
+  background-color: purple;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.one-line-title p{
+    margin: 0;
+}
+
+/* course to sold grid */
+
+.courses .container{
+  padding: 100px 0;
+}
+
+.mentors {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  width: 100px;
+  height: 15px;
+  background-color: #f5f5f5;
+}
+
+.progress-bar {
+  background-color: #007bff;
+}
+
+/* Style for the explore now button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/* screen reader container description  */
+
+#screen-reader-title{
+  background-color: white;
+  color: rgb(3, 3, 45);
+  padding: 50px 25%;
+}
+
+.screen-reader-feature{
+  background-color: rgba(246, 247, 246, 0.73);
+}
+
+.main{
+  height:fit-content;
+  background-color:red;
+}
+
+
+.rectangle {
+  width: 600px;
+  height: 500px;
+  background-color: rgb(71, 218, 71);
+  position: relative;
+  left:-20rem;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  position:absolute;
+  right:-240px;
+  border-radius: 50%;
+  background-color: rgb(71, 218, 71);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-holder {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  left: 400px;
+  top: 150px;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+}
+
+.card-holder img {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-10deg);
+  z-index: 1;
+  height: 200px;
+
+}
+
+.card-holder img:nth-child(2) {
+  transform: translateX(-50%) rotate(10deg) translateY(-20px);
+  z-index: 2;
+  height: 200px;
+}
+
+.card-holder img:nth-child(3) {
+  transform: translateX(-50%) rotate(30deg) translateY(-40px);
+  z-index: 3;
+  height: 200px;
+}
