@@ -550,7 +550,7 @@ background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100
 /* help section */
 
 .help{
-  background-color: #0069d9;
+  background-color: #0720ae;
   display: flex;
   flex-direction: column;
 }
@@ -564,4 +564,87 @@ background: linear-gradient(90deg, rgba(25,67,246,1) 0%, rgba(208,102,193,1) 100
 .help img{
   text-align: center;
   margin: 0 auto;
+}
+
+/* frequently asked wuestion */
+
+/* .question-asked{
+margin: 50px;
+padding: 100px;
+}
+
+.question-asked h6{
+font-weight: bold;
+text-align: center;
+} */
+
+.questions{
+  padding: 0 200px;
+}
+
+.questions h6{
+  text-align: center;
+  margin: 100px 0;
+font-weight: bold;
+}
+
+.question{
+  cursor: pointer;
+}
+
+.answer{
+  display: none;
+padding:20px 0 ;
+}
+
+
+/* download app from playstore section */
+
+.download-app{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 5px 5px -3px rgb(190, 189, 189), 
+              0px -5px 5px -3px rgb(47, 46, 46);
+            
+            
+}
+
+.download-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.download-app img{
+  height: 100px;
+}
+
+/* footer */
+
+.footer{
+  padding: 0 200px;
+  margin-bottom: 100px;
+}
+
+.footer .col-md-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer .col-md-4:nth-child(2){
+  border-left: solid green 1px;
+  border-right: solid green 1px;
+
+}
+
+.footer img{
+  object-fit: fill;
+}
+
+.bottom-note{
+  text-align: center;
 }
